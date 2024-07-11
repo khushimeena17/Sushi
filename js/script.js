@@ -14,6 +14,10 @@ AOS.init({
     offset: 100,
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+  AOS.init();
+});
+
 const trendingSushis = [
     'Make Sushi',
     'Nigiri Sushi',
